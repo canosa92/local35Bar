@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local 35-Bar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Rubik:wght@800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  
+    <!--Lo primero es crear la barra de navegacion
+      ====-->
+      
+  <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <div class="container">
+      <a class="navbar-brand" href="#header">Local 35-Bar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse d-flex flex-row-reverse">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link"  href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Galeria">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#MenuRestaurante">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Ahora vamos a hacer una pequeña cabecera, en esta ocasion, 
+    casi casi copiar y pegar de bootrastp  -->
+  <header id="header">
+    <div class="intro">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
+              <h1>Local 35-Bar </h1>
+              <p>Bar/Restaurante en a Costa da Morte</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+ <!--En esta section vamos a crear un carrusel de imagenes del local 
+    con una descripción del local y un breve curriculum de nuestra chef
+   -->
+
+  <section class="seccionTexto" id="sobre">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 ">
+      
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://live.staticflickr.com/65535/52470810423_c9407267bc_o.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470810348_38bdeaa93b_o.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470544484_9f7a0e88ee_o.jpg"  class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470544554_dae0b660f5_o.jpg" class="d-block w-100" alt="...">
+      </div>
+       <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470267196_5edf27bb47_o.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+        <div class="col-xs-12 col-md-6">
+          <div class="seccionTexto-text">
+            <h2>Sobre Nosotros</h2>
+            <hr>
+            <p>Local 35-Bar es un restaurante/bar familiar en Vimianzo, en plena costa da morte. En tan solo 7 años de existencia ya se ha consolidado como un referente a la hora de comprar comida casera para llevar, varios de sus platos más demanadados son los bocadillos, hamburguesas, tortillas y paellas.
+            </p>
+            <h2>Nuestra chef</h2>
+            <hr>
+            <p>Nuestra chef lleva más de 20 año entre fogones.Se especializo en comidas gallegas trabajando tanto en Galicia como en centros y restaurantes gallegos en Mallorca. Alli decidío ampliar conociemientos estudaiando en la Escola d'Hoteleria de les Illes Balears.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+    
+  
+  
+  <section class="tituloSection"  id="Galeria">
+    <div class="section-title">
+      <div class="section-title text-center center">
+        <div class="overlay">
+          <div class="container">
+              <div class="row">
+                <div class="intro-text">
+        <h2>Galeria</h2>
+        <hr>
+        <p>Aqui podrás algunas fotos de nuestros platos ademas de alguno de nuestros pinchos.</p>
+    </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="seccionTexto" id="fotos">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-md-6">
+          <div class="seccionTexto-text">
+            <h2>Nuestros Platos</h2>
+            <hr>
+            <p>Todos nuestros platos estan hechos conn ingredientes y materiales de primera adquiridos en el mercado de proximidad</p>
+            <h3>Awarded Chefs</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 ">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://live.staticflickr.com/65535/52469770787_3d6e70b4d9_c.jpg" width="640" height="365" alt="cocido gallego" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470729760_bd69aea2ee_z.jpg" width="640" height="358" alt="raxo encebollado" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470544484_9f7a0e88ee_o.jpg"  class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470544554_dae0b660f5_o.jpg" class="d-block w-100" alt="...">
+      </div>
+       <div class="carousel-item">
+        <img src="https://live.staticflickr.com/65535/52470267196_5edf27bb47_o.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="titulo" id="SectionMenu" >
+    <div class="section-title text-center center">
+      <div class="overlay">
+        <div class="container">
+            <div class="row">
+              <div class="intro-text">
+        <h2>Menu</h2>
+        <hr>
+        <p>Estas son algunas de nuestras raciones, tambien tenemos bocadillos, hamburguesas y menu del dia.</p>
+        <p>Preguntar siempre por la disponibilidad, puede no haber cierta oferta e inlcuso puede haber más.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="seccionTexto" id="MenuRestaurante">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Raciones</h2>
+          <hr>
+          <div class="menu-item">
+            <div class="menu-item-name"> Calamares</div>
+            </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Croca</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Chipirones</div>
+           </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Escalope de pollo </div>
+         </div>
+         <div class="menu-item">
+          <div class="menu-item-name"> Raxo encebollado</div>
+       </div>
+       <div class="menu-item">
+        <div class="menu-item-name"> Raxo con salsa de champiñones</div>
+     </div>
+       <div class="menu-item">
+        <div class="menu-item-name"> Tortilla completa </div>
+     </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Hamburguesas y Bocadillo</h2>
+          <hr>
+          <div class="menu-item">
+            <div class="menu-item-name">Hamburguesa simple</div>
+        </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Hamburguesa completa</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name"> Hamburguesa completa con huevo</div>
+              </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Bocadillo de tortilla </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Bocadillo de jamon serrano </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Bocadillo de jamon serrano con queso</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name"> Bocadillo delomo con queso </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+      </div>
+  </section>
+  <section class="titulo" id="SectionContacto" >
+      <div class="section-title text-center center">
+        <div class="overlay">
+          <div class="container">
+              <div class="row">
+                <div class="intro-text">
+        <h2>Contacto</h2>
+        <hr>
+        <p>Aqui podrás algunas fotos de nuestros platos ademas de alguno de nuestros pinchos.</p>
+    </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+<div class="seccionTexto" id="contacto">
+  <div class="container">
+    <div class="row">
+      <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+        var setting = {"height":500,"width":500,"zoom":13,"queryString":"Local 35-Bar, Vimianzo, España","place_id":"ChIJj3P6gUG2Lg0RVK9Ql4MfnNo","satellite":false,"centerCoord":[43.14711731488502,-9.076547650000014],"cid":"0xda9c1f839750af54","lang":"es","cityUrl":"/spain/vimianzo-174544","cityAnchorText":"Mapa de Vimianzo, Galicia, España","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"826613"};
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=826613';
+        s.async = true;
+        s.onload = function (e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+      })();</script><a href="https://1map.com/es/map-embed">1 Map</a>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="seccionTexto-text"><div class="col-xs-12 col-md-6">
+          <div class="seccionTexto-text"><div class="col-xs-12 col-md-6">
+          <div class="seccionTexto-text">
+    <div class="HorarioyDireccion">
+      <div id="horario">
+        <div class="tituloHyD">
+          <h3>HORARIO</h3>
+        </div>
+        <div class="semanal">
+          <h4>Martes a Viernes: 7:00-23:00</h4>
+          <h4>Sabados y Domingos: 9:00-00:00</h4>
+          <h4>Lunes: 7:00- 15:00</h4>
+        </div>
+      </div>
+      <div id="direccion">
+        <div class="tituloHyD">
+          <h3>DIRECCIÓN</h3>
+        </div>
+        <div class="semanal">
+          <h4>Recesindes nº35, Carantoña</h4>
+          <h4>15129 Vimianzo, A Coruña</h4> 
+          <h4>España</h4>
+        </div>
+      </div>
+      <div class="Contacto">
+        <div class="tituloHyD">
+          <h3>CONTACTO</h3>
+        </div>
+        <div class="semanal">
+          <a href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, Necesito mas informacion!"><img src="/iconos/2559769_media_network_social_whatsapp_icon.png" /></a>
+           <a ><img src="/iconos/2559817_facebook_media_network_social_icon.png"/> </a> 
+           <a><img src="/iconos/2559772_media_network_social_viber_icon.png"/> </a> 
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>

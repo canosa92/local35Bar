@@ -1,0 +1,190 @@
+body {
+	font-family: 'Fuzzy Bubbles', cursive;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
+
+}
+.section-title {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.section-title .overlay {
+	padding: 80px 0;
+	background: rgba(12, 12, 12, 0.4);
+}
+.section-title p {
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 4px 4px  rgb(0, 0, 0);
+}
+.section-title h2 {
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+	text-shadow: 0px 5px 5px  rgb(0, 179, 255);
+	text-transform: uppercase;
+}
+.section-title hr {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+/*Menu de navegacion*/
+
+#menu a.navbar-brand {
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.navbar-nav{
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 10px;
+}
+.nav-link{
+	color: #ffffff;
+}
+.nav-link:hover{
+	color:blue;
+	translate: 5px;
+	transform: translateY(5px);
+	
+}
+/*Vamos con el estilo de la portada */
+
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background: #444 url("https://live.staticflickr.com/65535/52470810348_38bdeaa93b_o.jpg") center center no-repeat fixed;
+	background-size: cover;
+
+}
+
+.intro .overlay {
+	background: rgba(12, 12, 12, 0.4);
+}
+
+.intro h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 10em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.intro span {
+	color: #a7c44c;
+	font-weight: 600;
+}
+
+.intro p {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+header .intro-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+/*Ahora vamos a crear el estilo que nos servira 
+para la parte de texto de las distintas secciones
+*/
+
+.seccionTexto {
+	padding: 50px 50px;
+}
+.seccionTexto h3 {
+	font-size: 20px;
+}
+.seccionTexto .seccionTexto-text {
+	margin-left: 10px;
+}
+.seccionTexto p {
+	line-height: 24px;
+	margin: 15px 0 30px;
+}
+
+
+#MenuRestaurante {
+	padding:  30px 30px;
+
+}
+
+#MenuRestaurante h2 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#MenuRestaurante .overlay {
+	background: rgba(34, 34, 34, 0.4);
+}
+
+
+#MenuRestaurante .menu-section-title {
+	font-size: 26px;
+	display: block;
+	font-weight: 500;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#MenuRestaurante .menu-item {
+	margin: 35px 0;
+	font-size: 18px;
+}
+#MenuRestaurante .menu-item-name {
+	font-weight: 600;
+	font-size: 17px;
+	color: #555;
+	border-bottom: 2px dotted rgb(213, 213, 213);
+}
+#MenuRestaurante .menu-item-description {
+	font-style: italic;
+	font-size: 15px;
+}
+#MenuRestaurante .menu-item-price {
+	float: right;
+	font-weight: 600;
+	color: #555;
+	margin-top: -26px;
+}
+#MenuRestaurante .menu-section hr {
+	margin: 0 auto;
+}
+#MenuRestaurante .menu-section {
+	margin: 0 20px 80px;
+}
+
+/*Las imagenes que iran de fondo en cada titulo de las distintas secciones*/
+#Galeria{
+	background: #444 url("https://live.staticflickr.com/65535/52470267196_5edf27bb47_o.jpg") center center no-repeat fixed;
+	background-size: cover;
+	opacity: 0.9;
+}
+#SectionMenu{
+	background: #444 url("https://live.staticflickr.com/65535/52470544554_dae0b660f5_o.jpg") center center no-repeat fixed;
+	background-size: cover;
+	opacity: 0.9;
+}
+#SectionContacto{
+	background: #444 url("https://live.staticflickr.com/65535/52470810423_c9407267bc_o.jpg") center center no-repeat fixed;
+	background-size: cover;
+	opacity: 0.9;
+}
